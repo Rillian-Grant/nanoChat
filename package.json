@@ -1,0 +1,22 @@
+{
+    "name": "nanochat",
+    "version": "0.0.1",
+    "description": "A lightweight chat app",
+    "main": "index.js",
+    "scripts": {
+        "start": "concurrently \"npm --prefix server start\" \"npm --prefix client start\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rillian-Grant/nanoChat.git"
+    },
+    "author": "Rillian Grant <rillian.grant@gmail.com>",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/Rillian-Grant/nanoChat/issues"
+    },
+    "homepage": "https://github.com/Rillian-Grant/nanoChat#readme",
+    "dependencies": {
+        "concurrently": "^5.1.0"
+    }
+}

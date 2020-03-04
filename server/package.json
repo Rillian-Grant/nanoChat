@@ -1,0 +1,14 @@
+{
+    "name": "nanochat-server",
+    "version": "0.0.1",
+    "description": "The server component of nanochat",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ."
+    },
+    "author": "Rillian Grant <rillian.grant@gmail.com>",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
